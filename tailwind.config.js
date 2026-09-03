@@ -1,0 +1,25 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "className",
+  theme: {
+    extend: {
+      colors: {
+        primary: "#b62641",
+        dark: "#1d1d1d",
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "3rem",
+        },
+      },
+      fontFamily: {
+        work: ["Work Sans", "sans-serif"],
+        josefin: ["Josefin Sans", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+};
