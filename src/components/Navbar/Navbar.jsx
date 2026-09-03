@@ -5,7 +5,7 @@ export const NavLinks = [
   {
     id: 1,
     name: "Home",
-    link: "/user-home",
+    link: "/",
   },
   {
     id: 2,
@@ -147,7 +147,7 @@ if(dropDown){
              {dropDown&&(
                 <div className="absolute w-full  ml-[-12px] mt-[575px] bg-[#F2C94C]">
                   <ul className=""><hr/>
-                <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/user-home">Home</a></li><hr />
+                <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/">Home</a></li><hr />
                     <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/user-about">About</a></li><hr/>
                     <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/user-service">Service</a></li><hr/>
                     <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/user-testimonal">Testimonal</a></li><hr/>
