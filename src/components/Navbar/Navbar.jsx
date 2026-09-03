@@ -87,7 +87,7 @@ if(dropDown){
         <div
           className={`
             hidden md:block
-            sticky top-0 z-50
+            sticky top-0 
             shadow-md
             bg-[#F2C94C]
             transition-all duration-200
@@ -125,7 +125,7 @@ if(dropDown){
           className="
             md:hidden
             sticky top-0
-            z-50
+    
             w-full
             p-3
             h-[50px]
@@ -142,7 +142,7 @@ if(dropDown){
                 Menu
               </h1>
      </div>
-            <div className="relative z-70">
+            <div className="relative">
               <button type="submit" onClick={handledDropdown}><i className=" fa-solid fa-bars text-[#051311] text-[22.956px]"></i> </button></div>  
              {dropDown&&(
                 <div className="absolute w-full  ml-[-12px] mt-[575px] bg-[#F2C94C]">
