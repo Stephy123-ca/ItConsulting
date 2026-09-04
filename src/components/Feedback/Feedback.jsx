@@ -35,7 +35,7 @@ const Feedback = () => {
         </div>
                   <div className=" text-center mt-[150px] bg-[#F2C94C] p-4 flex-wrap">
                   <h1 className="font-josefin text-[27.85px] text-[#0F4C8A] font-semibold ">Stay Updated With Evlogia</h1>
-                  <div className="relative w-[250px] md:w-[530px] mx-auto">
+                  <div className="relative w-[300px] md:w-[530px] mx-auto">
                       <input
                           className="w-full h-[40px] mt-3 p-2 pr-10 text-[#0F4C8A] bg-white rounded-md outline-none"
                           type="email"
