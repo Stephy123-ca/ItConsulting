@@ -6,7 +6,7 @@ const CallRequest = ({onClose,onPhoneClick}) => {
     <>
           <div className="fixed inset-0 z-99 flex items-center justify-center ">
 
-              <div className="relative md:w-[350px] w-[250px] right-20 md:right-0 min-h-[520px] bg-white/10 text-white backdrop-blur-lg border text-center border-white/20 shadow-lg p-5 rounded-xl">
+              <div className="relative md:w-[350px] w-[250px] right-16 md:right-0 min-h-[520px] bg-white/10 text-white backdrop-blur-lg border text-center border-white/20 shadow-lg p-5 rounded-xl">
                   <div className="absolute inset-0  rounded text-center">
 
                       <button
