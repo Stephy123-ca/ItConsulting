@@ -91,14 +91,14 @@ if(dropDown){
             shadow-md
             bg-[#F2C94C]
             transition-all duration-200
-            ${isScrolled ? "w-full px-5":"container"
+            ${isScrolled ? "w-full z-30 px-5":"container"
             }
           `}>
           <div>
             <div className="flex justify-between items-center">
             
       
-                <div className="">
+                <div className="z-30">
                   <ul className="flex items-center gap-6">
                     {NavLinks.map(({ id, name, link }) => (
                       <li key={id}>
@@ -124,11 +124,11 @@ if(dropDown){
         <div
           className="
             md:hidden
-            sticky top-0
-    
+            sticky top-0 
+            z-50
             w-full
             p-3
-            h-[50px]
+            md:h-[50px] h-[40px]
             shadow-md
             bg-[#F2C94C]
           "
@@ -137,25 +137,25 @@ if(dropDown){
              justify-between 
             items-center">
             <div className="">
-              <h1 className="font-josefin text-[#051311] text-[22.956px]">
+              <h1 className="font-josefin text-[#051311] text-[18px] md:text-[22.956px]">
         
                 Menu
               </h1>
      </div>
             <div className="relative">
-              <button type="submit" onClick={handledDropdown}><i className=" fa-solid fa-bars text-[#051311] text-[22.956px]"></i> </button></div>  
+              <button type="submit" onClick={handledDropdown}><i className=" fa-solid fa-bars text-[#051311] text-[18px] md:text-[22.956px]"></i> </button></div>  
              {dropDown&&(
-                <div className="absolute w-full  ml-[-12px] mt-[575px] bg-[#F2C94C]">
+                <div className="absolute w-full  right-0 md:top-12 top-10 bg-[#F2C94C] z-50">
                   <ul className=""><hr/>
-                <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/">Home</a></li><hr />
-                    <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/user-about">About</a></li><hr/>
-                    <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/user-service">Service</a></li><hr/>
-                    <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/user-testimonal">Testimonal</a></li><hr/>
-                    <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/user-feedback">Feedback</a></li><hr/>
-                      <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/user-contact">Contact</a></li><hr/>
-                    <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/user-career">Career</a></li><hr/>
-                  <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/user-portfolio">PortFolio</a></li><hr />
-                  <li className="font-josefin text-[22.956px] pl-10 py-3"><a href="/user-blog">Blogs</a></li><hr />
+                <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/">Home</a></li><hr />
+                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-about">About</a></li><hr/>
+                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-service">Service</a></li><hr/>
+                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-testimonal">Testimonal</a></li><hr/>
+                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-feedback">Feedback</a></li><hr/>
+                      <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-contact">Contact</a></li><hr/>
+                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-career">Career</a></li><hr/>
+                  <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-portfolio">PortFolio</a></li><hr />
+                  <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-blog">Blogs</a></li><hr />
                 </ul>
               </div>
              )} 
