@@ -42,7 +42,7 @@ const UserHome = () => {
     
                   {/* <Contact /> */}
                   <Footer />
-      <div className='fixed md:right-[35px] right-[150px] bottom-8'>
+      <div className='fixed right-[35px] bottom-8'>
                     <IconHandle/>
                   </div>
       
