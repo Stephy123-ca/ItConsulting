@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import DarkMode from "./DarkMode";
+import { Link } from "react-router-dom";
 
 export const NavLinks = [
   {
@@ -102,12 +103,12 @@ if(dropDown){
                   <ul className="flex items-center gap-6">
                     {NavLinks.map(({ id, name, link }) => (
                       <li key={id}>
-                        <a
+                        <Link
                           className="inline-block text-base text-[12px] font-semibold py-3 text-[#0F4C8A] transition-all duration-400"
-                          href={link}
+                          to={link}
                         >
-                        {name}
-                        </a>
+                          {name}
+                        </Link>
                       </li>
                     ))}
                   </ul>
@@ -147,15 +148,15 @@ if(dropDown){
              {dropDown&&(
                 <div className="absolute w-full  right-0 md:top-12 top-10 bg-[#F2C94C] z-50">
                   <ul className=""><hr/>
-                <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/">Home</a></li><hr />
-                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-about">About</a></li><hr/>
-                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-service">Service</a></li><hr/>
-                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-testimonal">Testimonal</a></li><hr/>
-                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-feedback">Feedback</a></li><hr/>
-                      <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-contact">Contact</a></li><hr/>
-                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-career">Career</a></li><hr/>
-                  <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-portfolio">PortFolio</a></li><hr />
-                  <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><a href="/user-blog">Blogs</a></li><hr />
+                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><Link to="/">Home</Link></li><hr />
+                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><Link to="/user-about">About</Link></li><hr/>
+                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><Link to="/user-service">Service</Link></li><hr/>
+                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><Link to="/user-testimonal">Testimonal</Link></li><hr/>
+                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><Link to="/user-feedback">Feedback</Link></li><hr/>
+                      <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><Link to="/user-contact">Contact</Link></li><hr/>
+                    <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><Link to="/user-career">Career</Link></li><hr/>
+                  <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><Link to="/user-portfolio">PortFolio</Link></li><hr />
+                  <li className="font-josefin text-[18px] md:text-[22.956px] pl-8 py-2"><Link to="/user-blog">Blogs</Link></li><hr />
                 </ul>
               </div>
              )} 
