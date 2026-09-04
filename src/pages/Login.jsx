@@ -1,5 +1,5 @@
 import React from 'react'
-
+import image2 from "../assets/images/logo-edit.png";
 const Login = () => {
   return (
     <> 

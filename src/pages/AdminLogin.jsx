@@ -10,7 +10,7 @@ const AdminLogin = ({ onClose, onAdminClick,onPhoneClick }) => {
             
           <div className="fixed inset-0 z-50 flex items-center justify-center ">
 
-              <div className="relative md:w-[350px] w-[250px] right-16 md:right-0 min-h-[480px] bg-white/10 text-white backdrop-blur-lg border text-center border-white/20 shadow-lg p-5 rounded-xl">
+              <div className="relative md:w-[350px] w-[250px] right-16 md:right-0 min-h-[480px] bg-slate-700/10 text-white backdrop-blur-lg border text-center border-slate-700/20 shadow-lg p-5 rounded-xl">
                   <div className="absolute inset-0  rounded text-center">
 
                       <button
@@ -27,7 +27,7 @@ const AdminLogin = ({ onClose, onAdminClick,onPhoneClick }) => {
                           </div>
                       </div>
 
-                      <div className='pt-10 px-5'>
+                      <div className='pt-5 px-5'>
                           <h1 className='text-[24.71px] text-[#ffffff] font-sans font-bold mt-[5px] leading-6'>Admin Portal</h1>
                           <p className='text-[14px] text-[#ffffff] font-sans mt-1'>Authorized access only</p>
                           <input type="text" placeholder="Username" className='bg-slate-100/30 backdrop-blur-md focus:placeholder-gray-400 border p-2 rounded mt-7 w-full text-sm text-[#000000] placeholder-gray-300 font-[500] font-sans ' />
