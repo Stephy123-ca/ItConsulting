@@ -1,11 +1,14 @@
 import React from 'react'
+import image2 from "../../assets/images/testing.webp";
+import image3 from "../../assets/images/cyber.webp";
+import image4 from "../../assets/images/ds_img.webp";
 
 const skillsData = [
     {
         id: 1,
         name: "Software Testing",
         img: (
-<img src="./src/assets/images/testing.webp" alt="not found" />
+<img src={image2} alt="not found" />
         ),
         link: "#",
         description: "Software testing is the process of verifying and validating that a software application meets its specified requirements, and functions as intended.",
@@ -14,7 +17,7 @@ const skillsData = [
     {
         name: "Cyber Security",
         img: (
-            <img src="./src/assets/images/cyber.webp" alt="not found" />
+            <img src={image3} alt="not found" />
         ),
         link: "#",
         description: "Cyber security is the practice of protecting systems, networks, and data from digital attacks while promoting responsible and sustainable use of...",
@@ -23,7 +26,7 @@ const skillsData = [
     {
         name: "Data Science",
         img: (
-            <img src="./src/assets/images/ds_img.webp" alt="not found" />
+            <img src={image4} alt="not found" />
         ),
         link: "#",
         description: "In today's digital world, huge amounts of data are generated every second through Social media, Online shopping, Banking, Healthcare systems,...",

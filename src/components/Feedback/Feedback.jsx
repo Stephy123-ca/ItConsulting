@@ -1,4 +1,5 @@
 import React from 'react'
+import image4 from "../../assets/images/testing.webp";
 
 const Feedback = () => {
   return (
@@ -15,7 +16,7 @@ const Feedback = () => {
                       <div className="w-[100%] ml-[40px] ">
                           <div className="grid grid-cols-1 md:flex md:justify-center md:items-center gap-3">
                           <div className="w-[65%]">
-                        <img src="./src/assets/images/testing.webp" className="w-[100%]" alt="Feedback 1" />
+                        <img src={image4} className="w-[100%]" alt="Feedback 1" />
                     </div>
                     <div className="w-[100%] md:w-[65%]">
                         <div className="flex justify-start items-center gap-1">

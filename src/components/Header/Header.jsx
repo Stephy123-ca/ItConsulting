@@ -1,11 +1,12 @@
 import React from 'react'
+import image2 from "../../assets/images/logo-edit.png";
 
 const Header = () => {
   return (
     <>
       <div className='hidden container lg:flex justify-between items-center'>
       <div className='ml-[-20px] mt[-20px]'>
-<img src="./src/assets/images/logo-edit.png" width="165" height="165" alt="Logo"/>
+<img src={image2} width="165" height="165" alt="Logo"/>
  
     </div>
     <div className='flex justify-between items-center gap-3 '>
