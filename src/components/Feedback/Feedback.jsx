@@ -33,9 +33,22 @@ const Feedback = () => {
              </div>
             </div>
         </div>
-                  <div className=" text-center mt-[150px] p-4 bg-[#F2C94C]">
-                  <h1 className="font-josefin text-[27.85px] text-[#0F4C8A] font-semibold">Stay Updated With Evlogia</h1>
-                      <div className="relative"><input className="p-2 w-[500px] h-[50px] mt-5 text-[#ffffff]" type="email" placeholder="Enter Your Email" /> <i className="fa-solid fa-location-arrow absolute mt-[37px] ml-[-35px] text-[24.28px] text-[#F2C94C]"></i></div>
+                  <div className=" text-center mt-[150px] bg-[#F2C94C] p-4 flex-wrap">
+                  <h1 className="font-josefin text-[27.85px] text-[#0F4C8A] font-semibold ">Stay Updated With Evlogia</h1>
+                  <div className="relative w-[250px] md:w-[530px] mx-auto">
+                      <input
+                          className="w-full h-[40px] mt-3 p-2 pr-10 text-[#0F4C8A] bg-white rounded-md outline-none"
+                          type="email"
+                          placeholder="Enter Your Email"
+                      />
+
+                      <button
+                          type="button"
+                          className="absolute right-2 top-[33px] -translate-y-1/2"
+                      >
+                          <i className="fa-solid fa-location-arrow text-[18px] md:text-[24px] text-[#F2C94C]"></i>
+                      </button>
+                  </div>
                   <p className="font-work text-[16px] text-[#0F4C8A] mt-1">Placement updates, IT insights-no spams</p>
                   </div>
         </div>
