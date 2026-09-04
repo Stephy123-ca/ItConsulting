@@ -23,7 +23,7 @@ const UserTestimonal = () => {
                       <div className="bg-[#0A2F5A] w-[50px] h-[50px] flex justify-center items-center rounded-full">
                           <i className="fa-solid fa-quote-left text-[22px] text-[#F2C94C]"></i>
                       </div>
-                      <div className='text-center mt-3 '><img src="./src/assets/images/cyber.webp" className=" w-[100px] h-[100px] rounded-full border-[5px] border-[#F2C94C]"/>
+                      <div className='text-center mt-3 '><img src={image3} className=" w-[100px] h-[100px] rounded-full border-[5px] border-[#F2C94C]"/>
                           <h4 className='font-josefin text-[#0A2F5A] text-[20px] mt-3'>Name</h4>
                           <h6 className='font-work text-[15px] mt-2 text-[#F2C94C]'>Data Scientist</h6></div>
                       <div className="flex justify-center items-center gap-1 mt-4">
@@ -40,7 +40,7 @@ const UserTestimonal = () => {
                       <div className="bg-[#0A2F5A] w-[50px] h-[50px] flex justify-center items-center rounded-full">
                           <i className="fa-solid fa-quote-left text-[22px] text-[#F2C94C]"></i>
                       </div>
-                      <div className='text-center mt-3'><img src="./src/assets/images/cyber.webp" className=" w-[100px] h-[100px] rounded-full border-[5px] border-[#F2C94C]"/>
+                      <div className='text-center mt-3'><img src={image3} className=" w-[100px] h-[100px] rounded-full border-[5px] border-[#F2C94C]"/>
                           <h4 className='font-josefin text-[#0A2F5A] text-[20px] mt-3'>Name</h4>
                           <h6 className='font-work text-[15px] text-[#F2C94C] mt-2'>Data Scientist</h6></div>
                       <div className="flex justify-center items-center gap-1 mt-4">
@@ -57,7 +57,7 @@ const UserTestimonal = () => {
                       <div className="bg-[#F2C94C] w-[50px] h-[50px] flex justify-center items-center rounded-full">
                           <i className="fa-solid fa-quote-left fa-flip-horizontal text-[22px] text-[#0A2F5A]"></i>
                       </div>
-                      <div className='text-center mt-3'><img src="./src/assets/images/cyber.webp" className=" w-[100px] h-[100px] rounded-full border-[5px] border-[#F2C94C]"/>
+                      <div className='text-center mt-3'><img src={image3} className=" w-[100px] h-[100px] rounded-full border-[5px] border-[#F2C94C]"/>
                           <h4 className='font-josefin text-[#0A2F5A] text-[20px] mt-3'>Name</h4>
                           <h6 className='font-work text-[15px] mt-2 text-[#F2C94C]'>Data Scientist</h6></div>
                       <div className="flex justify-center items-center gap-1 mt-4">
