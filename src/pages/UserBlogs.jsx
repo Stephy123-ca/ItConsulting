@@ -3,6 +3,9 @@ import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import Navbar from '../components/Navbar/Navbar'
 import IconHandle from '../components/SideBar/IconHandle'
+import image2 from "../assets/images/testing.webp";
+import image3 from "../assets/images/cyber.webp";
+import image4 from "../assets/images/ds_img.webp";
 
 const UserBlogs = () => {
   return (
@@ -20,7 +23,7 @@ const UserBlogs = () => {
 <div className='container py-12'>
                   <div className='grid grid-cols-1 md:grid-cols-2 lg:flex justify-around items-center'>
             <div className=' bg-white lg:w-[100%] rounded-2xl m-5 py-2'>
-            <div className='relative'><img src="./src/assets/images/cyber.webp" className='w-full rounded-t-2xl'/>
+            <div className='relative'><img src={image2} className='w-full rounded-t-2xl'/>
                 <div className='absolute top-4 left-4'><p className='text-[#0A2F5A] font-semibold text-[14px]'><span className='bg-[#ffdf00] px-3 py-1 rounded-full'>Evlogia</span></p></div>
             </div>
            
@@ -35,7 +38,7 @@ const UserBlogs = () => {
                  </div>
         </div>
             <div className=' bg-white lg:w-[100%]  rounded-2xl m-5 py-2'>
-              <div className='relative'><img src="./src/assets/images/cyber.webp" className='w-full rounded-t-2xl'/>
+              <div className='relative'><img src={image3} className='w-full rounded-t-2xl'/>
               <div className='absolute top-4 left-4'><p className='text-[#0A2F5A] font-semibold text-[14px]'><span className='bg-[#ffdf00] px-3 py-1 rounded-full'>Evlogia</span></p></div>
             </div>
               <p className='font-work p-3 text-[#0A2F5A] text-[14px] font-semibold'><i class="fa-solid fa-calendar-days text-xl"></i> 07 Jun 2026<br/>
@@ -49,7 +52,7 @@ const UserBlogs = () => {
               </div>
         </div>
             <div className=' bg-white lg:w-[100%]  rounded-2xl m-5 py-2'>
-              <div className='relative'><img src="./src/assets/images/cyber.webp" className='w-full rounded-t-2xl' />
+              <div className='relative'><img src={image4} className='w-full rounded-t-2xl' />
                 <div className='absolute top-4 left-4'><p className='text-[#0A2F5A] font-semibold text-[14px]'><span className='bg-[#ffdf00] px-3 py-1 rounded-full'>Evlogia</span></p></div>
               </div>
               <p className='font-work p-3 text-[#0A2F5A] text-[14px] font-semibold'><i class="fa-solid fa-calendar-days text-xl"></i> 27 May 2026<br />

@@ -1,4 +1,5 @@
 import React from 'react'
+import image3 from "../assets/images/cyber.webp";
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import Navbar from '../components/Navbar/Navbar'
